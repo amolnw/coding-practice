@@ -1,9 +1,8 @@
 // Title: Linked List Cycle
-            // Difficulty: Easy
-            // Language: Java
-            // Link: https://leetcode.com/problems/linked-list-cycle/
+// Difficulty: Easy
+// Language: Java
+// Link: https://leetcode.com/problems/linked-list-cycle/
 
- */
 public class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null)
@@ -22,6 +21,5 @@ public class Solution {
             fast = fast.next.next;
         }
     }
-
-        return hasCycle;
+    return hasCycle;
 }
